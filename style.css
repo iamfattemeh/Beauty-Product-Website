@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Pacifico&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.task{
+    width: 100%;
+    height: 800px;
+    background-color: antiquewhite;
+}
+nav{
+    width: 100%;
+    height: 72px;
+    background-color: #FFFFFF;
+}
+nav .sub-nav{
+    width: 1179px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 12px;
+    left: 140px;
+}
+nav .sub-nav menu{
+    width: 600px;
+    height: 27px;
+    margin-left: 13.5px;
+}
+nav .sub-nav menu ul{
+    list-style: none;
+    display: flex;
+}
+nav .sub-nav menu ul li{
+    margin-left: 50px;
+}
+nav .sub-nav menu ul li a{
+    text-decoration: none;
+    color: #060000;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+}
+nav .sub-nav .sub-but{
+    width: 142px;
+    height: 46px;
+    background-color: #060000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    margin-left: 400px;
+}
+nav .sub-nav .sub-but a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.page1{
+    width: 100%;
+    height: 795px;
+    background-color: #A6D5DF;
+}
+.page1 .TEXT-BOX{
+    width: 575px;
+    height: 330px;
+    position: relative;
+    top: 101px;
+    left: 87px;
+}
+.page1 .TEXT-BOX .t1-txt{
+    width: 575px;
+    height: 194px;
+}
+.page1 .TEXT-BOX .t1-txt span{
+    font-size: 75px;
+    line-height: 130%;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #131313;
+}
+.page1 .TEXT-BOX .t2-txt{
+    width: 458px;
+    height: 66px;
+}
+.page1 .TEXT-BOX .t2-txt p{
+    font-size: 18px;
+    line-height: 33px;
+    color: #262626;
+    margin-top: 70px;
+}
+
+.page1 .brnd-but{
+    width: 180px;
+    height: 50px;
+    background-color: #202A36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 8px 0 #202A36;
+    border-radius: 60px;
+    position: relative;
+    top: 240px;
+    left: 230px;
+}
+.page1 .brnd-but a{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.page1 .image{
+    position: absolute;
+    top: 170px;
+    left: 700px;
+}
+.page1 .image img{
+    width: 600px;
+}
+
+
+.page2{
+    width: 100%;
+    height: 772px;
+    background-color: #FFFFFF;
+    /* background-color: #202A36; */
+}
+.page2 .title{
+    width: 371px;
+    height: 50px;
+    position: relative;
+    top: 70px;
+    left: 480px;
+}
+.page2 .title span{
+    font-size: 45px;
+    font-weight: bold;
+    color: #181818;
+}
+.page2 .inner-product{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 220px;
+}
+.page2 .inner-product .products{
+    width: 320px;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.page2 .inner-product .products .image img{
+    width: 320px;
+}
+.page2 .inner-product .products .text{
+    width: 180px;
+    height: 32px;
+}
+.page2 .inner-product .products .text a{
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 32px;
+    color: #4F4F4F;
+}
+
+
+.page3{
+    width: 100%;
+    height: 463px;
+    background-color: #D8ECF1;
+}
+.page3 .title{
+    width: 433px;
+    height: 64px;
+    position: relative;
+    top: 43px;
+    left: 445px;
+}
+.page3 .title span{
+    font-weight: bold;
+    font-size: 45px;
+    color: #000000;
+}
+.page3 .inner-deal{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 90px;
+}
+.page3 .inner-deal .deals{
+    width: 360px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page3 .inner-deal .deals .details{
+    width: 350px;
+    height: 116px;
+    background-color: #202A36;
+    border-radius: 110px;
+    display: flex;
+    align-items: center;
+}
+.page3 #tick{
+    margin-left: 36px;
+}
+.page3 .inner-deal .deals .details .text{
+    width: 230px;
+    height: 72px;
+    margin-left: 13px;
+}
+.page3 .inner-deal .deals .details .text a{
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 150%;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.page3 .inner-deal .deals .sub-text{
+    width: 200px;
+    height: 32px;
+    margin-top: 21px;
+}
+.page3 .inner-deal .deals .sub-text span{
+    font-size: 24px;
+    line-height: 28px;
+    color: #707070;
+}
+
+
+.page4{
+    width: 100%;
+    height: 669px;
+    background-color: #FFFFFF;
+}
+.page4 .title{
+    width: 311px;
+    height: 64px;
+    position: relative;
+    top: 62px;
+    left: 510px;
+}
+.page4 .title span{
+    font-weight: bold;
+    font-size: 47px;
+    color: #333333;
+}
+.page4 .ineer-sale{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 150px;
+}
+.page4 .ineer-sale .seals{
+    width: 285px;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.page4 .ineer-sale .seals .text{
+    width: 170px;
+    height: 32px;
+}
+.page4 .ineer-sale .seals .text a{
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 32px;
+    color: #707070;
+}
+#n1{
+    width: 93px;
+}
+#n2{
+    width: 101px;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 463px;
+    background-color: #202A36;
+}
+footer .side-1{
+    width: 488px;
+    height: 168px;
+    position: relative;
+    top: 141px;
+    left: 100px;
+}
+footer .side-1 .TXT{
+    width: 346px;
+    height: 64px;
+    margin-left: 72px;
+}
+footer .side-1 .TXT p{
+    font-size: 18px;
+    line-height: 180%;
+    color: #FFFFFF;
+    text-align: center;
+}
+footer .side-2{
+    width: 605px;
+    height: 297px;
+    display: flex;
+    position: relative;
+    top: -100px;
+    left: 705px;
+}
+footer .side-2 .inner-1{
+    width: 194px;
+    height: 297px;
+}
+footer .side-2 .inner-2{
+    width: 248px;
+    height: 218px;
+    margin-left: 163px;
+}
+footer .side-2 .inner-1 h3, .inner-2 h3{
+    font-size: 24px;
+    line-height: 170.5%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+footer .side-2 .inner-1 ul, .inner-2 ul{
+    list-style: none;
+}
+footer .side-2 .inner-1 ul li, .inner-2 ul li{
+    margin-top: 30px;
+}
+footer .side-2 .inner-1 ul li a, .inner-2 ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 170.5%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+footer .info{
+    width: 490px;
+    height: 75px;
+    margin-top: 48px;
+}
+footer .info input{
+    padding-left: 10px;
+    color: #FFFFFF;
+    width: 488px;
+    height: 74px;
+    border-radius: 60px;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    transition: 0.3s ease;
+    background-color: #202A36;
+}
+input:focus {
+    border: 6px solid #515DEF;
+    box-shadow: 0 0 10px rgba(81, 93, 239, 0.5);
+    outline: none;
+}
+footer .info label{
+    position: absolute;
+    top: 98px;
+    left: 40px;
+    background-color: #202A36;
+    font-size: 18px;
+    line-height: 178.5%;
+    transition: 0.3s ease;
+    padding: 0 4px;
+    color: #FFFFFF;
+}
+footer .info .join-but{
+    width: 171px;
+    height: 54px;
+    background-color: #FFFFFF;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 315px;
+    top: -65px;
+}
+footer .info .join-but a{
+    text-decoration: none;
+    color: #A4A4A4;
+    font-size: 18px;
+    line-height: 178.5%;
+}
